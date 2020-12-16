@@ -28,9 +28,44 @@ namespace MDPage
                 Text="Железный Человек",
                 Detail="Дебют:1963г.",
                 ImagePath="ironMan.jpg",
-                TargetPage=typeof(View.BlackPanther)
+                TargetPage=typeof(View.IronMan)
             });
-            
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Капитан Америка",
+                Detail = "Дебют:1941г.",
+                ImagePath = "cap.jpg",
+                TargetPage = typeof(View.CaptainAmerica)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Человек-паук",
+                Detail = "Дебют:1962г.",
+                ImagePath = "spidey.png",
+                TargetPage = typeof(View.SpiderMan)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Халк",
+                Detail = "Дебют:1962г.",
+                ImagePath = "Hulk.jpg",
+                TargetPage = typeof(View.Hulk)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Чёрная Вдова",
+                Detail = "Дебют:1964г.",
+                ImagePath = "blackwidow.jpg",
+                TargetPage = typeof(View.BlackWidow)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Тор",
+                Detail = "Дебют:1962г.",
+                ImagePath = "thor.jpg",
+                TargetPage = typeof(View.Thor)
+            });
+
             return list;
         }
 
