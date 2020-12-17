@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Доктор Стрэндж"
-                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="dr.webp"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

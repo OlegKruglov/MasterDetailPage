@@ -4,9 +4,9 @@
              x:Class="MDPage.View.BlackPanther">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Чёрная пантера"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Чёрная пантера" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="bp.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

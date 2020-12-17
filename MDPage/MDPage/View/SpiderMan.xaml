@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Человек-Паук"
-                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="spider.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

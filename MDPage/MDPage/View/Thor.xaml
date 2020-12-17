@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Тор"
-                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="tr.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

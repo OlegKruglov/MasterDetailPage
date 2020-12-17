@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Дедпул"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            HorizontalOptions="CenterAndExpand" />
+            <Image Source="dp.jpeg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

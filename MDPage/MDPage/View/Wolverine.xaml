@@ -5,8 +5,8 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Росомаха"
-                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="wv.jpg"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -15,7 +15,7 @@ namespace MDPage
             InitializeComponent();
             profileImage.Source = ImageSource.FromFile("marvel.webp");
             aboutList.ItemsSource = GetMenuList();
-            var homePage = typeof(View.BlackPanther);
+            var homePage = typeof(View.Page1);
             Detail = new NavigationPage((Page)Activator.CreateInstance(homePage));
             IsPresented = false;
         }
@@ -65,6 +65,35 @@ namespace MDPage
                 ImagePath = "thor.jpg",
                 TargetPage = typeof(View.Thor)
             });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Чёрная Пантера",
+                Detail = "Дебют:1966г.",
+                ImagePath = "blackpanther.jpg",
+                TargetPage = typeof(View.BlackPanther)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Доктор Стрейндж",
+                Detail = "Дебют:1963г.",
+                ImagePath = "drstr.jpg",
+                TargetPage = typeof(View.DrStrange)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Росомаха",
+                Detail = "Дебют:1974г.",
+                ImagePath = "wolverine.jpg",
+                TargetPage = typeof(View.Wolverine)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Дэдпул",
+                Detail = "Дебют:1991г.",
+                ImagePath = "deadpool.jpg",
+                TargetPage = typeof(View.Deadpool)
+            });
+
 
             return list;
         }
