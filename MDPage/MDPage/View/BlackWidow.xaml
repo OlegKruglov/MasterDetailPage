@@ -7,6 +7,9 @@
             <Label Text="Чёрная Вдова"
                 HorizontalOptions="CenterAndExpand" />
             <Image Source="bw.jpg"></Image>
+            <Label FontSize="15" Text="Чёрная вдова (англ. Black Widow) — одна из лучших шпионов и профессиональных убийц в мире. Первоначально работала на советскую службу разведки, КГБ, но позже стала агентом Щ.И.Т.">
+                
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

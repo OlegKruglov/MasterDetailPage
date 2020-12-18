@@ -7,6 +7,8 @@
             <Label Text="Чёрная пантера" 
                 HorizontalOptions="CenterAndExpand" />
             <Image Source="bp.jpg"></Image>
+            <Label Text="Т'Чалла (англ. T'Challa) — Чёрная пантера (англ. Black Panther), король Ваканды, одной из самых технологически продвинутых наций на Земле. Он входит в пятерку лучших умов человечества, ветеран Мститель и член Иллюминатов. Используя свои силы и способности, он пообещал служить на благо человечества."
+                   FontSize="15"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

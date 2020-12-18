@@ -6,7 +6,8 @@
         <StackLayout>
             <Label Text="Доктор Стрэндж"
                 HorizontalOptions="CenterAndExpand" />
-            <Image Source="dr.webp"></Image>
+            <Image Source="dr.jpg"></Image>
+            <Label FontSize="15" Text="Доктор Стивен Стрэндж (Doctor Strange) – сильнейший и известнейший чародей во вселенной Marvel, гордый обладатель титула «Высший Волшебник» и бывший нейрохирург."></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
