@@ -8,6 +8,7 @@
                 HorizontalOptions="CenterAndExpand" />
             <Image Source="dr.jpg"></Image>
             <Label FontSize="15" Text="Доктор Стивен Стрэндж (Doctor Strange) – сильнейший и известнейший чародей во вселенной Marvel, гордый обладатель титула «Высший Волшебник» и бывший нейрохирург."></Label>
+            <Button Text="Подробнее..." x:Name="docBut" Clicked="docBut_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

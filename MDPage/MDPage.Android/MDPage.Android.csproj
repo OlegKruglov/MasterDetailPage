@@ -67,7 +67,6 @@
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidResource Include="Resources\drawable\marvel.webp" />
-    <AndroidResource Include="Resources\drawable\dr.webp" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
